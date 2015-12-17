@@ -1,0 +1,27 @@
+#bootstrap-override img {
+    width: 100%;
+    height: auto;
+}
+
+#bootstrap-override li {
+    line-height: 2.6;
+     
+}
+
+@media all and(min-width: 34rem) {
+    #bootstrap-override li {
+        display: inline;
+    }
+}
+
+#bootstrap-override container.row {
+    background-color: #00787F;
+    
+}
+
+body{
+    margin: 0;
+    background-image: "http://7-themes.com/data_images/out/8/6794219-free-simple-wallpaper.jpg";
+    background-repeat: no-repeat;
+    background-size: contain;
+}
